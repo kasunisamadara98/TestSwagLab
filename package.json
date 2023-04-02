@@ -1,0 +1,15 @@
+{
+  "name": "testcafe-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "testcafe": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test:chrome:headless": "testcafe chrome:headless ./login-test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
